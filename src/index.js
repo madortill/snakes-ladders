@@ -868,7 +868,8 @@ function endGame() {
     document.querySelector(".page.currentTurn .mission-container .option.default").classList.remove("active");
     document.querySelector(".page.currentTurn .mission-container .option.end").classList.add("active");
 
-    document.querySelector(".page.currentTurn .mission-container ").style.height = "7rem";
+    document.querySelector(".page.currentTurn .mission-container ").style.height = "10rem";
+    document.querySelector(".page.currentTurn .map-icon").removeEventListener("click", openMap);
     document.querySelector(".page.currentTurn .restart-btn").addEventListener("click", () => {
         location.reload();
     });
