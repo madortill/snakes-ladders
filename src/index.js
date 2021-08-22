@@ -155,7 +155,7 @@ function chooseGroups() {
 function backBtnChooseGroup() {
     opening();
     initializeChooseGroups();
-    document.querySelector(".page.about").classList.remove("active");
+    document.querySelector(".page.chooseGroups").classList.remove("active");
     document.querySelector(".page.opening").classList.add("active");
 }
 
@@ -165,7 +165,6 @@ function switchDirection() {
 }
 
 function getNumberOfGroups() {
-    // document.querySelector(".page.chooseGroups .number-of-groups").addEventListener("scroll", getNumberOfGroups);
     for (let i = 1; i <= NUMBER_GROUP_MAX; i++) {
         document.querySelector(`.page.chooseGroups .number-of-groups .num-${i}`).addEventListener("click", numGroups);
     }
