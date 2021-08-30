@@ -126,7 +126,6 @@
 .page.chooseGroups .icon-animal {
     /* width: 7rem; */
     height: 3rem;
-
 }
 
 .page.chooseGroups .name-input {
@@ -137,8 +136,11 @@
     font-size: 1.2rem;
     font-family: Rubik;
     width: 11rem;
-    margin-right: 0.5rem;
+    margin-right: 0.5rem; 
 }
+.page.chooseGroups .name-input:focus-visible {
+    outline: none;
+  }
 
 .page.chooseGroups .title.missing {
     color: rgb(206, 71, 71);
