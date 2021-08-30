@@ -24,9 +24,9 @@
     /* --teal-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(25, 188, 180, 0.411) 100%); */
 
     --dark-green: linear-gradient(180deg, rgba(240, 255, 246, 1) 0%, rgba(22, 166, 81, 1) 100%);
-    --green: linear-gradient(180deg, rgba(240, 255, 246, 1) 0%, rgb(22, 166, 82) 100%);
-    --green-gradient: linear-gradient(180deg, rgba(240, 255, 246, 0) 0%, rgb(22 166 82 / 43%) 100%);
-    /* --blue: linear-gradient(180deg, rgba(229, 235, 245, 0) 0%, rgba(12, 86, 190, 0.712) 100%); */
+    --green: linear-gradient(180deg, rgba(240, 255, 246, 1) 0%, rgb(73 177 116) 100%);
+    /* --green: linear-gradient(180deg, rgba(240, 255, 246, 1) 0%, rgb(22, 166, 82) 100%); */
+    --green-gradient: linear-gradient(180deg, rgb(255 255 255 / 0%) 0%, rgb(75 144 104 / 40%) 100%);
 }
 
 html,
