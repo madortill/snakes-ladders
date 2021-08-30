@@ -6,7 +6,7 @@ const SUBJECTS = {
     // name of subject - מקראות ישראל
     "reading": {
         "number": 2,
-        "sub-name": "מקראות ישראל",
+        "sub-name": "מקראות <br> ישראל",
         "snakes-img": "../assets/images/opening/snakes-blue.svg",
         "img-sub": "../assets/images/opening/book.svg",
         "icon": "../assets/images/opening/icon-book.svg",
@@ -33,7 +33,7 @@ const SUBJECTS = {
     // name of subject - היכר הסביבה 
     "environment": {
         "number": 1,
-        "sub-name": "הכרת הדרום",
+        "sub-name": "הכרת <br> הדרום",
         "snakes-img": "../assets/images/opening/snakes-teal.svg",
         "img-sub": "../assets/images/opening/binoculaes.svg",
         "icon": "../assets/images/opening/icon-binoculaes.svg",
