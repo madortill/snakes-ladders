@@ -67,7 +67,7 @@
     align-items: center;
     margin-top: 0.8rem;
     z-index: 2;
-    height: 8rem;
+    height: 11rem;
 }
 
 
@@ -85,7 +85,7 @@
 
 .page.opening .icon-sub {
     /* width: 4rem; */
-    height: 20vmin;
+    height: 17vmin;
     margin: 0.4rem;
 }
 
