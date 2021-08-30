@@ -83,8 +83,8 @@
 }
 
 .page.opening .icon-sub {
-    height: 64px;
     /* height: 5rem; */
+    width: 4rem;
     margin: 0.4rem;
 }
 
@@ -96,7 +96,7 @@
 
 .page.opening .start-btn {
     z-index: 2;
-    height: 60px;
     /* height: 9.5vh; */
+    width: 11rem;
     margin-top: 1.5rem;
 }
