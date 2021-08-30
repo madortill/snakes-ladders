@@ -18,7 +18,8 @@
     --blue-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(12, 86, 190, 0.5) 100%);
 
     --dark-teal: linear-gradient(180deg, rgba(240, 255, 254, 1) 0%, rgba(25, 188, 179, 1) 100%);
-    --teal: linear-gradient(180deg, rgba(240, 255, 254, 1) 0%, rgba(25, 188, 179, 1) 100%);
+    --teal: linear-gradient(180deg, rgba(240, 255, 254, 1) 0%, rgb(110 209 204) 100%);
+    /* --teal: linear-gradient(180deg, rgba(240, 255, 254, 1) 0%, rgba(25, 188, 179, 1) 100%); */
     --teal-gradient: linear-gradient(180deg, rgb(255 255 255 / 0%) 0%, rgb(53 192 185 / 46%) 100%);
     /* --teal-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(25, 188, 180, 0.411) 100%); */
 
