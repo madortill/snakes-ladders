@@ -96,7 +96,14 @@
 }
 
 .page.opening .start-btn {
+    height: 100%;
+}
+
+.page.opening .btn-container {
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;    
+    margin-top: 1.5rem;    
     z-index: 2;
-    margin-top: 1.5rem;
-    width: 90%;
 }

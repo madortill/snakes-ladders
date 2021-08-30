@@ -19,7 +19,7 @@ const SUBJECTS = {
     // name of subject - פיקוד
     "command": {
         "number": 0,
-        "sub-name": "הדרכה ופיקודdd",
+        "sub-name": "פיקוד",
         // "sub-name": "פיקוד",
         "snakes-img": "../assets/images/opening/snakes-green.svg",
         "img-sub": "../assets/images/opening/commander.svg",
