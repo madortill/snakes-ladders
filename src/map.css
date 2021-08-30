@@ -12,7 +12,8 @@
 }
 
 .page.map .map {
-    background-image: url("../assets/images/mapcrop.png");
+    /* background-image: url("../assets/images/mapcrop.png"); */
+    background-image: url("../assets/images/mapcrop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
