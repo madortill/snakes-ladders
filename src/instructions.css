@@ -38,4 +38,7 @@
 
 .page.instructions .back-btn {
     height: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    width: 85%;
 }
