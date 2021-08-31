@@ -109,6 +109,5 @@
 }
 
 .page.currentTurn .restart-btn {
-    height: 8rem;
-    margin-top: 3rem;
+    height: auto;
 }

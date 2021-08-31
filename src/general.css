@@ -82,6 +82,7 @@ body {
     background: var(--blue-gradient);
     height: 100%;
     width: 100%;
+    pointer-events: none;
 }
 
 .page .bg-question,

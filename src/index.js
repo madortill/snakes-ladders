@@ -762,6 +762,7 @@ function nextTurnAfterMission() {
 }
 
 function initializeMission() {
+    currentMission++;
     document.querySelector(".page.mission .failure-btn").src = "../assets/images/buttons/failure-btn.svg";
     document.querySelector(".page.mission .success-btn").src = "../assets/images/buttons/success-btn.svg";
 
@@ -807,6 +808,7 @@ function newInfo() {
 }
 
 function nextTurnAfterNewInfo() {
+    currentNewInfo++;
     document.querySelector(".page.currentTurn").classList.add("active");
     document.querySelector(".page.new-info").classList.remove("active");
 
@@ -860,10 +862,14 @@ function nextTurnAfterBlackHole() {
 function endGame() {
     document.querySelector(".page.currentTurn .cubes").remove();
     let btn = document.createElement("img");
+    let btnContainer = document.createElement("div");
+
     btn.src = "../assets/images/buttons/restart.svg";
     btn.classList.add("restart-btn");
-    document.querySelector(".page.currentTurn .mission-container").after(btn);
-    document.querySelector(".page.currentTurn .restart-btn").style.filter = currentSubject["filter-btn-color"];
+    btnContainer.classList.add("btn-container");
+    document.querySelector(".page.currentTurn .mission-container").after(btnContainer);
+    document.querySelector(".page.currentTurn .btn-container").appendChild(btn);
+    document.querySelector(".page.currentTurn .btn-container .restart-btn").style.filter = currentSubject["filter-btn-color"];
 
     document.querySelector(".page.currentTurn .mission-container .option.default").classList.remove("active");
     document.querySelector(".page.currentTurn .mission-container .option.end").classList.add("active");
