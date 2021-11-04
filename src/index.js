@@ -763,6 +763,8 @@ function nextTurnAfterMission() {
 
 function initializeMission() {
     currentMission++;
+    if (currentMission === missionArr.length)
+        currentMission = 0;
     document.querySelector(".page.mission .failure-btn").src = "../assets/images/buttons/failure-btn.svg";
     document.querySelector(".page.mission .success-btn").src = "../assets/images/buttons/success-btn.svg";
 
@@ -809,6 +811,9 @@ function newInfo() {
 
 function nextTurnAfterNewInfo() {
     currentNewInfo++;
+    if (currentNewInfo === newInfoArr.length)
+        currentNewInfo = 0;
+
     document.querySelector(".page.currentTurn").classList.add("active");
     document.querySelector(".page.new-info").classList.remove("active");
 
